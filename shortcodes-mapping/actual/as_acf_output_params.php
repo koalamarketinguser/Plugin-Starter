@@ -1,6 +1,6 @@
 <?php
 
-function as_acf_output_array() {
+function as_slider_array() {
 
 
 
@@ -35,7 +35,7 @@ function as_acf_output_array() {
 
 
 
-function vc_ase_map_acf_output() {
+function vc_ase_map_slider() {
 
 	vc_map(
 
@@ -45,7 +45,7 @@ function vc_ase_map_acf_output() {
 
 			'name'        => __( 'ACF Field block', 'vc_ase' ),
 
-			'base'        => 'as_acf_output',
+			'base'        => 'as_slider',
 
 			'class'       => '',
 
@@ -61,7 +61,7 @@ function vc_ase_map_acf_output() {
 
 			//'admin_enqueue_css' => array( plugin_dir_url( __FILE__ ).'/as_vc_extend/shotcodes/css/input.css'),
 
-			'params'      => as_acf_output_array(),
+			'params'      => as_slider_array(),
 
 
 
@@ -71,5 +71,5 @@ function vc_ase_map_acf_output() {
 
 }
 
-add_action( 'init', 'vc_ase_map_acf_output' );
+add_action( 'init', 'vc_ase_map_slider' );
 

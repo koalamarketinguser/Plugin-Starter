@@ -94,7 +94,7 @@
 
 // 6. Luxury Theme Sass imports
 
-
+@import "../node_modules/owl.carousel/dist/owl.carousel.min.css";
 /*
 Fonts
 */
@@ -102,9 +102,3 @@ Fonts
 /**
  * General
  */
-
-
-
-body {
-	background: red !important;
-}

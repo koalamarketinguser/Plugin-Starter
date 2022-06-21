@@ -98,7 +98,7 @@ function vc_ase_init() {
 
 		// VISUAL COMPOSER SHORTCODES.
 		//include VC_ASE_DIR . 'shortcodes/as_house_short_gallery.php';
-		// include VC_ASE_DIR . 'shortcodes/actual/as_acf_output.php';
+		 include VC_ASE_DIR . 'shortcodes/actual/as_acf_output.php';
         // include VC_ASE_DIR . 'shortcodes/as_house_important_info.php';
         // include VC_ASE_DIR . 'shortcodes/as_house_payments.php';
         // include VC_ASE_DIR . 'shortcodes/as_house_gallery.php';
