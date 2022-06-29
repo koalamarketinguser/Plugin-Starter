@@ -1,0 +1,28 @@
+// 2. Include any default variable overrides here: https://getbootstrap.com/docs/5.0/customize/sass
+// Options
+
+//Luxury theme pallet
+
+$grey:#E3E4EA;
+$pink:#C9ACA8;
+$pink-light:#D3BCB9;
+$green:#727F5B;
+$green-light:#8E987B;
+$dark-grey:rgb(112, 112, 112);
+$border-grey:#ebebeb;
+$grey1:#3E3E3E;
+$grey2:#E3E4EA;
+$grey3:#707070;
+$grey4:#4D505C;
+
+// Fonts
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base: $font-family-sans-serif;
+
+$link-decoration: none;
+
+//Font Awesome icons
+
+$fa-font-path: "../webfonts";

@@ -1,0 +1,1 @@
+{"version":3,"sources":["admin.scss","admin.css"],"names":[],"mappings":"AACQ,qCACI,+CCAZ","file":"admin.css","sourcesContent":[".wp-admin.theme-luxury{\r\n        i.luxury_icon{\r\n            background-image: url(../../assets/img/logo.png);\r\n        }\r\n}\r\n",".wp-admin.theme-luxury i.luxury_icon {\n  background-image: url(../../assets/img/logo.png);\n}"]}

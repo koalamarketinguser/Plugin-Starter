@@ -1,0 +1,113 @@
+// Compile "main.scss" as "css/main.css"
+@font-face {
+	font-family: 'Open-Sans';
+	src: url('../webfonts/maps/OpenSans/OpenSans-Bold.eot') format('eot'),
+		/* IE9 Compat Modes */
+		url('../webfonts/maps/OpenSans/OpenSans-Bold.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/maps/OpenSans/OpenSans-Bold.ttf') format('ttf');
+	/* Super Modern Browsers */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Open-Sans';
+	src: url('../webfonts/maps/OpenSans/OpenSans-Regular.eot') format('eot'),
+		/* IE9 Compat Modes */
+		url('../webfonts/maps/OpenSans/OpenSans-Regular.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/maps/OpenSans/OpenSans-Regular.ttf') format('ttf');
+	/* Super Modern Browsers */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../webfonts/maps/Raleway/Raleway-Bold.eot') format('eot'),
+		/* IE9 Compat Modes */
+		url('../webfonts/maps/Raleway/Raleway-Bold.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/maps/Raleway/Raleway-Bold.ttf') format('ttf');
+	/* Super Modern Browsers */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../webfonts/maps/Raleway/Raleway-Regular.eot') format('eot'),
+		/* IE9 Compat Modes */
+		url('../webfonts/maps/Raleway/Raleway-Regular.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/maps/Raleway/Raleway-Regular.ttf') format('ttf');
+	/* Super Modern Browsers */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../webfonts/maps/Raleway/Raleway-SemiBold.eot') format('eot'),
+		/* IE9 Compat Modes */
+		url('../webfonts/maps/Raleway/Raleway-SemiBold.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/maps/Raleway/Raleway-SemiBold.ttf') format('ttf');
+	/* Super Modern Browsers */
+	font-weight: 600;
+}
+
+
+
+//   @font-face {
+// 	font-family: 'Open-Sans';
+// 	src: url('./webfonts/maps/Raleway/Raleway-Bold.eot') format('eot'); /* IE9 Compat Modes */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Bold.woff') format('woff'); /* IE6-IE8 */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Bold.ttf') format('ttf'); /* Super Modern Browsers */
+
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraBold.eot') format('eot'); /* IE9 Compat Modes */
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraBold.woff') format('woff'); /* IE6-IE8 */
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraBold.ttf') format('ttf'); /* Super Modern Browsers */
+
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraLight.eot') format('eot'); /* IE9 Compat Modes */
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraLight.woff') format('woff'); /* IE6-IE8 */
+// 	src: url('./webfonts/maps/Raleway/Raleway-ExtraLight.ttf') format('ttf'); /* Super Modern Browsers */
+
+// 	src: url('./webfonts/maps/Raleway/Raleway-Regular.eot') format('eot'); /* IE9 Compat Modes */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Regular.woff') format('woff'); /* IE6-IE8 */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Regular.ttf') format('ttf'); /* Super Modern Browsers */
+
+// 	src: url('./webfonts/maps/Raleway/Raleway-Thin.eot') format('eot'); /* IE9 Compat Modes */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Thin.woff') format('woff'); /* IE6-IE8 */
+// 	src: url('./webfonts/maps/Raleway/Raleway-Thin.ttf') format('ttf'); /* Super Modern Browsers */
+//   }
+
+/**
+ * Import Bootstrap sources
+ */
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+//Fontawesome icons
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+
+// 6. Luxury Theme Sass imports
+@import "./scss/WPElements/admin.scss";
+@import "./scss/WPElements/elements/as_luxury_slider.scss";
+@import "./scss/WPElements/elements/as_luxury_testimonials_slider.scss";
+@import "./scss/abstracts/mixins";
+
+
+/*
+Fonts
+*/
+
+/**
+ * General
+ */
+h1{
+	font-size: 5rem;
+}
+

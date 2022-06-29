@@ -1,0 +1,99 @@
+div#testimonials-carousel{
+    .owl-stage-outer{
+        height: 100%;
+        margin-bottom: 50px;
+    
+        max-height: auto;
+    }
+    @include max768{
+        .slide-text-container{
+            padding-top:30px;
+        }
+    }
+    height: auto;
+    .slide{
+        height: auto!important;
+        .slide-text-container{
+            margin-top: 70px;
+            padding-top:0px;
+            p.text{
+                font-size: 1.6rem;
+                max-width:100%;
+                margin:40px 0px 0px 0px;
+                @include min1200{
+                    margin:40px auto 0px auto;
+                }
+                @include min1200{
+                    max-width:70%;
+                }
+               
+            }
+            p.author{
+                text-align:right;
+                font-weight:700;
+            }
+        }
+        .slide-inner.d-sm-flex.d-none{
+            display: block!important;
+            height: auto;
+        }
+    }
+    .owl-nav{
+        @include max1200{
+           button.owl-prev,
+        button.owl-next{
+                margin:0px!important
+            }
+        }
+        @include max768{
+            &{
+                display: none;
+                position: relative;
+                margin-top:50px;
+               
+            }
+        }
+        position: absolute;
+        top: 40%;
+      
+        width: 100%;
+        button{  
+            font-size:20px!important;
+           
+            i{
+                border:1px solid black;
+                border-radius:50px;
+                width: 38px;
+                height: 38px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+    }
+   .owl-dots{
+    display: flex;
+    justify-content: center;
+    @include min768{
+        display: none;
+    }
+    @include max600{
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    button{
+        display: block;
+        height: 13px;
+        width: 13px;
+        background: $grey;
+        border-radius: 50px;
+        margin:0px 20px;
+        border: 1px solid $grey1;
+        &.owl-dot.active{
+            background: $green;
+        }
+    }
+   }
+}

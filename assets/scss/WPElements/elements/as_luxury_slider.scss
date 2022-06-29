@@ -1,0 +1,84 @@
+
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+
+.luxury-slider{
+  font-family: "Raleway";
+  .owl-stage-outer{
+      .slide-inner{
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+      .slide-text-container{
+        margin: auto;
+        margin-top: 20px;
+        padding:150px 10px 0px 10px;
+        h1{
+          text-align: center;
+          font-weight:700;
+        }
+        p{
+          font-weight: 400;
+          font-size: 2rem;
+          @include min600 {
+            max-width: 50%;
+          }
+          max-width: 80%;
+          width: auto;
+          margin: auto;
+          text-align: center;
+          margin-top: 40px;
+          line-height: 36px;
+        }
+
+
+        a{       
+            @include hover-shadow($pink, $pink, black);
+            max-width: 240px;
+            display: flex;
+            height: 45px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            color: black;
+            border: 1px solid black;
+            font-weight: 700;
+            margin: 25px auto;
+
+        }
+      }
+  }
+
+
+
+  
+  .owl-nav{
+    position: absolute;
+    top: 30%;
+    width:100%;
+
+    button{
+      font-size:100px!important;
+      &.owl-prev{
+        @include max500{
+          margin-left: 0px;
+        }
+        margin-left: 60px;
+      }
+      &.owl-next{
+        @include max500{
+          margin-right: 0px;
+        }
+        margin-right: 60px;
+        margin-left:auto;
+        float: right;
+      }
+
+    }
+  }
+}
+
+
+
